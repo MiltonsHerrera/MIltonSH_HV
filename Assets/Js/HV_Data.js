@@ -1,5 +1,5 @@
 
-fetch('./Assets/Data/data.json')
+fetch('../Assets/Data/data.json')
     .then(response => {
         if (!response.ok) {
             throw new Error(`Status: ${response.status}`)
