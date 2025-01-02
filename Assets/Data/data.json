@@ -1,0 +1,94 @@
+{
+    "formacion": {
+        "institucion": "Servicio nacional de aprendizaje SENA",
+        "titulo": "Tecnólogo en Análisis y Desarrollo de Sistemas de Información (ADSI)",
+        "año": 2016,
+        "educacion_secundaria": {
+            "institucion": "Colegio Técnico Juvenil Del Valle",
+            "titulo": "Bachiller Técnico Especialidad Electrónica",
+            "año": 2000
+        },
+        "otros_estudios": [
+            {
+                "titulo": "Fundamentos Para El Desarrollo Del Software",
+                "institucion": "Servicio Nacional de Aprendizaje SENA",
+                "año": 2008
+            },
+            {
+                "titulo": "Fundamentación de Ensamble y Mantenimiento de Computadores Para Los Procesos de Soporte",
+                "institucion": "Servicio Nacional de Aprendizaje SENA",
+                "año": 2011
+            },
+            {
+                "titulo": "Creación de Páginas Web Con Base de Datos (PHP y MySQL)",
+                "institucion": "Servicio Nacional de Aprendizaje SENA",
+                "fecha": "11/12/2014"
+            },
+            {
+                "titulo": "English Dot Works Beginner - Inglés Principiantes",
+                "institucion": "Servicio Nacional de Aprendizaje SENA",
+                "año": 2014
+            },
+            {
+                "titulo": "Realizar Mantenimiento Preventivo y Predictivo Que Prolongue El Funcionamiento de Los Equipos de Cómputo",
+                "institucion": "Servicio Nacional de Aprendizaje SENA",
+                "año": 2012
+            },
+            {
+                "titulo": "Realizar Mantenimiento Correctivo de Los Equipos de Cómputo Según Procedimiento Establecido",
+                "institucion": "Servicio Nacional de Aprendizaje SENA"
+            }
+        ]
+    },
+    "experiencia_laboral": [
+        {
+            "empresa": "PlusData Sas",
+            "jefe_inmediato": "Jhonny López",
+            "inicio": "1 de mayo de 2020",
+            "finalizacion": "15 de noviembre de 2022",
+            "cargo": "Desarrollador"
+        },
+        {
+            "empresa": "Compus Part",
+            "inicio": "1 de febrero de 2018",
+            "finalizacion": "30 de diciembre de 2019",
+            "cargo": "Jefe Técnico en Sistemas y Administrador de Proyectos"
+        },
+        {
+            "empresa": "Centro Comunitario Yira Castro",
+            "inicio": "1 de febrero de 2011",
+            "finalizacion": "30 de septiembre de 2014",
+            "cargo": "Administrador Sala de Sistemas",
+            "funciones": [
+                "Administrador sala de sistemas",
+                "Atención al usuario",
+                "Integrante del grupo coordinador",
+                "Instructor de sistemas básica para adultos"
+            ]
+        },
+        {
+            "empresa": "Corporación Caminos",
+            "inicio": "1 de septiembre de 2012",
+            "finalizacion": "1 de septiembre de 2013",
+            "cargo": "Animador Sociocultural",
+            "funciones": [
+                "Administrador Sala de Sistemas",
+                "Apoyo logístico",
+                "Participante en el grupo interdisciplinario"
+            ]
+        }
+    ],
+    "sobre_mi": {
+        "descripcion": "Tecnólogo del SENA. Experiencia en el área de tecnologías e informática. Experiencias en áreas de trabajos sociales en organizaciones sin ánimo de lucro. He generado herramientas para desenvolverme en cualquier área laboral.",
+        "habilidades": [
+            "Comprensión del mundo digital",
+            "Capacidad para generar respuestas apropiadas y óptimas a problemas planteados",
+            "Criterio autónomo y reflexivo"
+        ],
+        "intereses": [
+            "Sector público",
+            "Sector privado",
+            "Sector académico"
+        ]
+    }
+}
