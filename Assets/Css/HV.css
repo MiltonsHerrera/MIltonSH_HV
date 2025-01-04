@@ -24,6 +24,7 @@ body {
     font-size: xx-large;
 }
 
+/*< !-- Container left star -->  */
 #info {
     display: flex;
     flex-direction: column;
@@ -40,6 +41,9 @@ body {
     font-size: 20px;
 }
 
+/*   < !-- Conteiner left end --> */
+
+/*     < !-- Conteiner main star --> */
 .conteiner {
     display: grid;
     height: 400px;
@@ -48,6 +52,7 @@ body {
 
 .conteiner section {
     background-color: #52ee47;
+    overflow: auto;
 }
 
 .conteiner #column {
@@ -58,17 +63,7 @@ body {
     flex-direction: column;
 }
 
-#column .section_one {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    color: white;
-}
-
-.section_info {
-    justify-content: center;
-}
-
+/* < !-- Conteiner main end --> */
 .section_one h2 {
     color: #000504;
     background-color: #52ee47;
@@ -86,12 +81,6 @@ body {
     color: #000504;
     background-color: #52ee47;
     font-size: 20px;
-}
-
-#column hr {
-    width: 80%;
-    height: 5px;
-    background-color: white;
 }
 
 main {
