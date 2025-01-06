@@ -6,18 +6,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 15px;
-    background-color: #00ffff;
+    background-color: #cbf7f7;
     display: flex;
     flex-direction: column;
 }
 
 #header {
     display: flex;
-    background-color: rgb(82, 238, 71);
+    background-color: rgb(173, 230, 169);
     width: 35%;
     height: 100px;
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
 }
 
 #header h2 {
@@ -51,7 +52,7 @@ body {
 }
 
 .conteiner section {
-    background-color: #52ee47;
+    background-color: rgb(173, 230, 169);
     overflow: auto;
 }
 
@@ -66,14 +67,14 @@ body {
 /* < !-- Conteiner main end --> */
 .section_one h2 {
     color: #000504;
-    background-color: #52ee47;
+    background-color: rgb(173, 230, 169);
     font-weight: bold;
     font-size: 25px;
 }
 
 .section_one p {
     color: #000504;
-    background-color: #52ee47;
+    background-color: rgb(173, 230, 169);
     font-size: 20px;
 }
 
@@ -96,7 +97,7 @@ main:focus {
 footer {
     margin-top: 2%;
     height: 70px;
-    background-color: #52ee47;
+    background-color: rgb(173, 230, 169);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
@@ -121,28 +122,63 @@ a {
 
 
 @media(max-width:780px) {
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
 
+    /* header star */
     #header {
         width: 100%;
     }
 
+    /* header end */
+
+    /* info star*/
+    #info {
+        display: flex;
+        flex-direction: column;
+    }
+
     #info h1 {
-        font-size: 32px;
+        font-size: 38px;
     }
 
-    #info article {
-        font-size: 15px;
-    }
+    /* info end */
 
-
-
+    /* conteiner star */
     .conteiner {
+        flex: 1;
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    footer {
-        padding: 10px;
-        border-radius: 20px;
+    .conteiner .section_info {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
     }
+
+    .conteiner main {
+        height: 250px;
+    }
+
+    /* conteiner end */
+
+    /* footer star */
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    footer a {
+        font-size: 15px;
+        margin: auto;
+    }
+
+    /* footer end */
 }
