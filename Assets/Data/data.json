@@ -78,17 +78,46 @@
             ]
         }
     ],
-    "sobre_mi": {
-        "descripcion": "Tecnólogo del SENA. Experiencia en el área de tecnologías e informática. Experiencias en áreas de trabajos sociales en organizaciones sin ánimo de lucro. He generado herramientas para desenvolverme en cualquier área laboral.",
-        "habilidades": [
-            "Comprensión del mundo digital",
-            "Capacidad para generar respuestas apropiadas y óptimas a problemas planteados",
-            "Criterio autónomo y reflexivo"
+    "Habilidades_Tecnicas": {
+        "Lenguajes_de_Programación": [
+            "Java",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "C#",
+            "SQL"
         ],
-        "intereses": [
-            "Sector público",
-            "Sector privado",
-            "Sector académico"
+        "Frameworks": [
+            "ASP.NET Core",
+            "Entity Framework"
+        ],
+        "Bases_de_Datos": [
+            "MySQL",
+            "SQl server management studio",
+            "Workbench"
+        ],
+        "Sistemas_Operativos": [
+            "Windows",
+            "Linux",
+            "Adroid"
+        ],
+        "Herramientas_de_Desarrollo": [
+            "Visual Studio Code",
+            "NetBeans",
+            "Visual Studio",
+            "Android Studio"
+        ],
+        "Control_de_Versiones": [
+            "Git",
+            "GitHub"
+        ],
+        "Metodologías_de_Desarrollo": [
+            "SCRUM"
+        ],
+        "Bibliotecas": [
+            "React",
+            "Bootstrap",
+            "JQuery"
         ]
     }
 }

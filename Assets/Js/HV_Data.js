@@ -11,6 +11,7 @@ fetch('./Assets/Data/data.json')
         const experienceConteiner = document.getElementById('experienceConteiner');
         const educationSection = document.getElementById('educationSection');
         const studyOther = document.getElementById('studyOther');
+        const habilitiesConteiner = document.getElementById('habilitiesConteiner');
 
         data.experiencia_laboral.forEach(item => {
             const div = document.createElement('div');
@@ -29,7 +30,7 @@ fetch('./Assets/Data/data.json')
 
         const div = document.createElement('div');
         div.innerHTML = `
-         <h3>${formation.institucion}</h3>
+        <h3>${formation.institucion}</h3>
             <p><strong>Título:</strong> ${formation.titulo}</p>
             <p><strong>Año:</strong> ${formation.año}</p>
             <br>
@@ -51,6 +52,17 @@ fetch('./Assets/Data/data.json')
                 <br>
             `;
             studyOther.appendChild(studyDiv);
+        });
+
+        const habilities = data.Habilidades_Tecnicas;
+        Object.keys(habilities).forEach(key => {
+            const habilitiesDiv = document.createElement('div');
+            habilitiesDiv.innerHTML = `
+                <br/>
+                <h3>${key.replace(/_/g, ' ')}</h3> 
+                <p>${habilities[key].join(', ')}</p>
+            `;
+            habilitiesConteiner.appendChild(habilitiesDiv);
         });
     })
     .catch(error => console.error('Error al cargar los datos:', error));
