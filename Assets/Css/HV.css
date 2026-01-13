@@ -25,10 +25,10 @@ body {
     font-size: xx-large;
 }
 
-/*< !-- Container left star -->  */
+/*< !-- Container info header -->  */
 #info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 10px 10px;
 }
 
@@ -42,7 +42,16 @@ body {
     font-size: 20px;
 }
 
-/*   < !-- Conteiner left end --> */
+#info-person {
+    width: 100%;
+}
+
+#perfil-profesional {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/*   < !-- Conteiner info header --> */
 
 /*     < !-- Conteiner main star --> */
 .conteiner {
