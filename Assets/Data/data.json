@@ -15,19 +15,14 @@
                 "año": 2008
             },
             {
-                "titulo": "Fundamentación de Ensamble y Mantenimiento de Computadores Para Los Procesos de Soporte",
-                "institucion": "Servicio Nacional de Aprendizaje SENA",
-                "año": 2011
-            },
-            {
                 "titulo": "Creación de Páginas Web Con Base de Datos (PHP y MySQL)",
                 "institucion": "Servicio Nacional de Aprendizaje SENA",
                 "fecha": "11/12/2014"
             },
             {
-                "titulo": "English Dot Works Beginner - Inglés Principiantes",
+                "titulo": "Fundamentación de Ensamble y Mantenimiento de Computadores Para Los Procesos de Soporte",
                 "institucion": "Servicio Nacional de Aprendizaje SENA",
-                "año": 2014
+                "año": 2011
             },
             {
                 "titulo": "Realizar Mantenimiento Preventivo y Predictivo Que Prolongue El Funcionamiento de Los Equipos de Cómputo",
@@ -37,6 +32,11 @@
             {
                 "titulo": "Realizar Mantenimiento Correctivo de Los Equipos de Cómputo Según Procedimiento Establecido",
                 "institucion": "Servicio Nacional de Aprendizaje SENA"
+            },
+            {
+                "titulo": "English Dot Works Beginner - Inglés Principiantes",
+                "institucion": "Servicio Nacional de Aprendizaje SENA",
+                "año": 2014
             }
         ]
     },
