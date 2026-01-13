@@ -119,6 +119,13 @@
         ],
         "Metodologías_de_Desarrollo": [
             "SCRUM"
+        ],
+        "Infraestructura y Seguridad": [
+            "Instalación y configuración de redes LAN",
+            "Mantenimiento y soporte de cámaras de seguridad CCTV",
+            "Configuración de routers y switches",
+            "Cableado estructurado",
+            "Configuración básica de DVR y NVR"
         ]
     }
 }
