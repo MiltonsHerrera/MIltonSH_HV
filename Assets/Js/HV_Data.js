@@ -60,7 +60,7 @@ fetch('./Assets/Data/data.json')
             habilitiesDiv.innerHTML = `
                 <br/>
                 <h3>${key.replace(/_/g, ' ')}</h3> 
-                <p>${habilities[key].join(', ')}</p>
+                <p>${habilities[key].join('<br/>')}</p>
             `;
             habilitiesConteiner.appendChild(habilitiesDiv);
         });

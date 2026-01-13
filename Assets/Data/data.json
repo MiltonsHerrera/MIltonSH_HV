@@ -87,14 +87,20 @@
             "C#",
             "SQL"
         ],
-        "Frameworks": [
+        "Frameworks y Tecnologías Backend": [
             "ASP.NET Core",
             "Entity Framework"
+        ],
+        "Frameworks y Tecnologías Frontend": [
+            "React",
+            "Bootstrap",
+            "JQuery"
         ],
         "Bases_de_Datos": [
             "MySQL",
             "SQl server management studio",
-            "Workbench"
+            "MySQL Workbench",
+            "SQL Server"
         ],
         "Sistemas_Operativos": [
             "Windows",
@@ -113,11 +119,6 @@
         ],
         "Metodologías_de_Desarrollo": [
             "SCRUM"
-        ],
-        "Bibliotecas": [
-            "React",
-            "Bootstrap",
-            "JQuery"
         ]
     }
 }
