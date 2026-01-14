@@ -43,10 +43,11 @@ body {
 }
 
 #info-person {
-    width: 100%;
+    width: 55%;
 }
 
 #perfil-profesional {
+    width: 100%;
     margin-top: 20px;
     text-align: justify;
 }
